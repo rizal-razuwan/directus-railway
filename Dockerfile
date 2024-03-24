@@ -11,4 +11,4 @@ RUN pnpm install directus-extension-computed-interface && pnpm install directus-
 # Uncomment this if you would like to install contributed/custom extensions through the extensions folder on Railway
 COPY ./extensions /directus/extensions
 
-COPY ./config.js /directus/config.js
+COPY ./directus.config.js /directus/config.js
